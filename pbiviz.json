@@ -1,0 +1,20 @@
+{
+  "visual": {
+    "name": "columnChartVisual",
+    "displayName": "Column Chart",
+    "guid": "columnChartVisualA1B2C3D4E5F6A7B8",
+    "visualClassName": "Visual",
+    "version": "2.0.1.0",
+    "description": "A column chart supporting grouped, stacked, and 100% stacked modes with hierarchical X-axis, analytics constant line, total labels, and native Power BI cross-filter / context-menu / theme integration. Rebuilt on Apache ECharts.",
+    "supportUrl": "https://charts.bta.dev/support",
+    "gitHubUrl": "https://github.com/BeyondTheInnovation/bta-column-chart"
+  },
+  "apiVersion": "5.11.0",
+  "author": { "name": "Beyond the Analytics", "email": "ayoub@beyondtheinnovation.com" },
+  "assets": { "icon": "assets/icon.png" },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}

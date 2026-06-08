@@ -1,0 +1,27 @@
+{
+  "name": "bta-column-chart",
+  "version": "2.0.1",
+  "description": "BTA Column Chart — a Power BI custom visual (grouped, stacked, and 100% stacked columns) built on Apache ECharts.",
+  "license": "MIT",
+  "author": "Beyond the Analytics <ayoub@beyondtheinnovation.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeyondTheInnovation/bta-column-chart"
+  },
+  "scripts": {
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "powerbi-visuals-utils-formattingmodel": "^6.2.2"
+  },
+  "devDependencies": {
+    "powerbi-visuals-api": "~5.11.0",
+    "powerbi-visuals-tools": "^7.1.0",
+    "typescript": "^6.0.2",
+    "eslint": "^10.2.0",
+    "eslint-plugin-powerbi-visuals": "^1.1.1"
+  }
+}

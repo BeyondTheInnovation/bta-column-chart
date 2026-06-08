@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "./.tmp/build/",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "strictNullChecks": false,
+    "ignoreDeprecations": "6.0",
+    "rootDir": "./",
+    "esModuleInterop": true
+  },
+  "files": ["./src/visual.ts", "./globals.d.ts"],
+  "include": ["node_modules/powerbi-visuals-api/index.d.ts"]
+}
